@@ -1,0 +1,232 @@
+:root {
+  /* Shadow 0dp */
+  --elevation-0: none;
+
+  /* Shadow 1dp */
+  --elevation-100: 0 1px 1px 0 rgba(0, 0, 0, 0.14),
+    0 2px 1px -1px rgba(0, 0, 0, 0.12), 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+
+  /* Shadow 2dp */
+  --elevation-200: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+    0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+  --elevation-inner-200: inset 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+    inset 0 3px 1px -2px rgba(0, 0, 0, 0.12),
+    inset 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+
+  /* Shadow 4dp */
+  --elevation-300: 0 4px 5px 0 rgba(0, 0, 0, 0.14),
+    0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
+  --elevation-inner-300: inset 0 4px 5px 0 rgba(0, 0, 0, 0.14),
+    inset 0 1px 10px 0 rgba(0, 0, 0, 0.12),
+    inset 0 2px 4px -1px rgba(0, 0, 0, 0.2);
+
+  /* Shadow 6dp */
+  --elevation-400: 0 6px 10px 0 rgba(0, 0, 0, 0.14),
+    0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.2);
+
+  /* Shadow 8dp */
+  --elevation-500: 0 8px 10px 1px rgba(0, 0, 0, 0.14),
+    0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.2);
+
+  /* Shadow 16dp */
+  --elevation-600: 0 16px 24px 2px rgba(0, 0, 0, 0.14),
+    0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+
+  /* Shadow 24dp */
+  --elevation-800: 0 24px 38px 3px rgba(0, 0, 0, 0.14),
+    0 9px 46px 8px rgba(0, 0, 0, 0.12), 0 11px 15px -7px rgba(0, 0, 0, 0.2);
+}
+//Typography
+:root {
+  --font-weight-bold: 700;
+  --font-weight-normal: 400;
+  --font-style-italic: italic;
+  --font-style-normal: normal;
+
+  --font-size-50: 0.5rem;
+  --font-size-100: 0.75rem;
+  --font-size-200: 1rem;
+  --font-size-300: 1.25rem;
+  --font-size-400: 1.5rem;
+  --font-size-500: 2rem;
+  --font-size-600: 2.5rem;
+
+  --line-height-0: 1;
+  --line-height-100: 1.125;
+  --line-height-200: 1.25;
+  --line-height-300: 1.5;
+  --line-height-400: 1.75;
+  --line-height-500: 2;
+
+  --color-neutral-0: white;
+  --color-neutral-20: #fafafb;
+  --color-neutral-40: #f3f3f3;
+  --color-neutral-50: #e9e9eb;
+  --color-neutral-60: #e6e6e8;
+  --color-neutral-80: #dcdcdd;
+  --color-neutral-100: #d5d5d8;
+  --color-neutral-150: #ceced0;
+  --color-neutral-200: #c1c1c5;
+  --color-neutral-300: #9b9ba0;
+  --color-neutral-400: #8b8b92;
+  --color-neutral-500: #66666c;
+  --color-neutral-600: #59595f;
+  --color-neutral-700: #4d4d51;
+  --color-neutral-800: #3d3d41;
+  --color-neutral-900: #29292b;
+  --color-neutral-950: #1f1f20;
+  --color-neutral-1000: black;
+  --color-primary-0: white;
+  --color-primary-50: #e4f7f4;
+  --color-primary-100: #bde7e2;
+  --color-primary-200: #98d6d0;
+  --color-primary-300: #66c0b8;
+  --color-primary-400: #33aba0;
+  --color-primary-500: #009688;
+  --color-primary-600: #007166;
+  --color-primary-700: #005a52;
+  --color-primary-800: #004b44;
+  --color-primary-900: #002d29;
+  --color-primary-950: #001e1b;
+  --color-primary-1000: black;
+  --color-accent-50: #d6e9f7;
+  --color-accent-100: #a6ceed;
+  --color-accent-200: #6aade1;
+  --color-accent-300: #2f8cd5;
+  --color-accent-400: #2880c5;
+  --color-accent-500: #1665a3;
+  --color-accent-600: #114c7a;
+  --color-accent-700: #0d3d62;
+  --color-accent-800: #0b3352;
+  --color-accent-900: #071e31;
+  --color-accent-900-alpha-90: rgba(7, 30, 49, 0.9);
+  --color-accent-950: #041421;
+  --color-success-50: #def8d7;
+  --color-success-100: #b7efa7;
+  --color-success-200: #87e56c;
+  --color-success-300: #58da31;
+  --color-success-400: #4cd025;
+  --color-success-500: #37af14;
+  --color-success-600: #29830f;
+  --color-success-700: #21690c;
+  --color-success-800: #1c580a;
+  --color-success-900: #113506;
+  --color-success-950: #0b2304;
+  --color-success-1000: black;
+  --color-info-50: #daf2fd;
+  --color-info-100: #aee2fa;
+  --color-info-200: #77cff6;
+  --color-info-300: #41bbf2;
+  --color-info-400: #30b5f1;
+  --color-info-500: #03a9f4;
+  --color-info-600: #027fb7;
+  --color-info-700: #026592;
+  --color-info-800: #02557a;
+  --color-info-900: #013349;
+  --color-info-950: #012231;
+  --color-info-1000: black;
+  --color-warning-50: #fcecde;
+  --color-warning-100: #f8d5b6;
+  --color-warning-200: #f3b986;
+  --color-warning-300: #ee9d56;
+  --color-warning-400: #ec9446;
+  --color-warning-500: #f57f17;
+  --color-warning-600: #c15f08;
+  --color-warning-700: #9a4c07;
+  --color-warning-800: #803f06;
+  --color-warning-900: #4d2603;
+  --color-warning-950: #331902;
+  --color-warning-1000: black;
+  --color-error-50: #fccfd8;
+  --color-error-100: #f996a8;
+  --color-error-200: #f6506f;
+  --color-error-300: #f00d36;
+  --color-error-400: #da0b31;
+  --color-error-500: #b00020;
+  --color-error-600: #840018;
+  --color-error-700: #6a0013;
+  --color-error-800: #580010;
+  --color-error-900: #35000a;
+  --color-error-950: #230006;
+  --color-error-1000: black;
+  --color-focus-50: #fdf4da;
+  --color-focus-100: #fbe6ad;
+  --color-focus-200: #f8d576;
+  --color-focus-300: #f5c43f;
+  --color-focus-400: #f4bf2d;
+  --color-focus-500: #f7b500;
+  --color-focus-600: #b98800;
+  --color-focus-700: #946d00;
+  --color-focus-800: #7c5b00;
+  --color-focus-900: #4a3600;
+  --color-focus-950: #312400;
+  --color-focus-1000: black;
+}
+
+body {
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 16px;
+}
+
+.mat-button-base {
+  height: 40px;
+  font-family: Roboto, Arial, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 1em;
+  letter-spacing: 0.05em;
+  font-size: var(--font-size-200);
+  font-weight: var(--font-weight-bold);
+  border: solid 1px var(--color-primary-500);
+  color: var(--color-primary-500);
+  background: var(--color-neutral-0);
+  height: var(--size-500);
+  line-height: var(--size-400);
+  padding-left: var(--size-150);
+  padding-right: var(--size-150);
+  border-radius: var(--shape-300);
+}
+.mat-button-base.mat-primary {
+  border-color: var(--color-primary-500);
+  color: var(--color-neutral-0);
+  background-color: var(--color-primary-500);
+  box-shadow: var(--elevation-200);
+}
+.mat-button-base.mat-primary {
+  border-color: var(--color-primary-500);
+  color: var(--color-neutral-0);
+  background-color: var(--color-primary-500);
+  box-shadow: var(--elevation-200);
+}
+
+section {
+  display: table;
+}
+
+.example-label {
+  display: table-cell;
+  font-size: 14px;
+  margin-left: 8px;
+  min-width: 120px;
+}
+
+.example-button-row {
+  display: table-cell;
+  width: 490px;
+}
+
+.example-button-row .mat-button-base {
+  margin: 8px 8px 8px 0;
+}
+
+.example-flex-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.example-button-container {
+  display: flex;
+  justify-content: center;
+  width: 120px;
+}
